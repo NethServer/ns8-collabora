@@ -1,1 +1,71 @@
-{}
+{
+    "status": {
+        "app_volumes": "",
+        "created": "",
+        "mount": "",
+        "no_services": "",
+        "no_volumes": "",
+        "open_collabora_admin_page": "",
+        "services": "",
+        "installation_node": "",
+        "size": "",
+        "app_images": "",
+        "title": "",
+        "collabora_admin_url": "",
+        "node": "",
+        "name": "",
+        "no_images": "",
+        "app_instance": ""
+    },
+    "settings": {
+        "lets_encrypt": "",
+        "enabled": "",
+        "disabled": "",
+        "email_format": "",
+        "collabora_admin_password": "",
+        "link": "",
+        "admin_password_string_gte": "",
+        "placeholder_admin_password": "",
+        "collabora_fqdn": "",
+        "title": "",
+        "placeholder_collabora_domain": "",
+        "save": "",
+        "domain_already_used_in_traefik": "",
+        "configuring": "",
+        "http_to_https": "",
+        "instance_configuration": ""
+    },
+    "about": {
+        "title": ""
+    },
+    "task": {
+        "cannot_create_task": ""
+    },
+    "action": {
+        "get-status": "",
+        "get-configuration": "",
+        "configure-module": "",
+        "get-module-info": "",
+        "get-name": "",
+        "list-backup-repositories": "",
+        "list-backups": "",
+        "list-installed-modules": ""
+    },
+    "error": {
+        "cannot_retrieve_module_info": "",
+        "error": "",
+        "404": "",
+        "network_error": "",
+        "network_timeout": "",
+        "generic_error": "",
+        "403": "",
+        "validation_error": "",
+        "cannot_retrieve_installed_modules": "",
+        "401": ""
+    },
+    "common": {
+        "required": "",
+        "processing": "",
+        "work_in_progress": ""
+    }
+}
