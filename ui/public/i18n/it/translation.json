@@ -1,6 +1,6 @@
 {
     "status": {
-        "app_volumes": "",
+        "app_volumes": "Volume app|Volumi app",
         "created": "Creato",
         "mount": "",
         "no_services": "Nessun servizio",
@@ -9,13 +9,13 @@
         "services": "Servizio | Servizi",
         "installation_node": "",
         "size": "Dimensione",
-        "app_images": "",
+        "app_images": "Immagine app|Immagini app",
         "title": "Stato",
         "collabora_admin_url": "",
         "node": "Nodo",
         "name": "Nome",
         "no_images": "Nessuna immagine",
-        "app_instance": ""
+        "app_instance": "Istanza app"
     },
     "settings": {
         "lets_encrypt": "",
@@ -36,10 +36,10 @@
         "instance_configuration": ""
     },
     "about": {
-        "title": ""
+        "title": "Informazioni"
     },
     "task": {
-        "cannot_create_task": ""
+        "cannot_create_task": "Impossibile eseguire task [action]"
     },
     "action": {
         "get-status": "",
@@ -52,7 +52,7 @@
         "list-installed-modules": ""
     },
     "error": {
-        "cannot_retrieve_module_info": "",
+        "cannot_retrieve_module_info": "Impossibile recuperare info modulo",
         "error": "Errore",
         "404": "Risorsa non trovata",
         "network_error": "Errore di rete",
@@ -60,7 +60,7 @@
         "generic_error": "",
         "403": "",
         "validation_error": "Errore di validazione",
-        "cannot_retrieve_installed_modules": "",
+        "cannot_retrieve_installed_modules": "Impossibile elencare moduli installati",
         "401": ""
     },
     "common": {
