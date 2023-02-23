@@ -39,7 +39,7 @@
         "title": "Informazioni"
     },
     "task": {
-        "cannot_create_task": "Impossibile eseguire task [action]"
+        "cannot_create_task": "Impossibile eseguire task {action}"
     },
     "action": {
         "get-status": "Visualizza stato",
@@ -56,12 +56,12 @@
         "error": "Errore",
         "404": "Risorsa non trovata",
         "network_error": "Errore di rete",
-        "network_timeout": "",
-        "generic_error": "",
-        "403": "",
+        "network_timeout": "Timeout di rete",
+        "generic_error": "Qualcosa è andato storto",
+        "403": "Operazione non autorizzata",
         "validation_error": "Errore di validazione",
         "cannot_retrieve_installed_modules": "Impossibile elencare moduli installati",
-        "401": ""
+        "401": "Autenticazione non valida"
     },
     "common": {
         "required": "Obbligatorio",
