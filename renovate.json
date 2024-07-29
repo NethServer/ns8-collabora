@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "branchPrefix": "renovate-",
+  "branchNameStrict": true,
+  "ignorePaths": ["**/ui/**"],
+  "regexManagers": [
+    {
+      "fileMatch": ["build-images.sh"],
+      "matchStrings": [
+        "docker\\.io/collabora/code:(?<currentValue>[^\\s]+)\""
+      ],
+      "depNameTemplate": "collabora/code",
+      "datasourceTemplate": "docker"
+    }
+  ]
+}
