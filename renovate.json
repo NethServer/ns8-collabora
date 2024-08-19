@@ -6,10 +6,10 @@
     {
       "fileMatch": ["build-images.sh"],
       "matchStrings": [
-        "docker\\.io/collabora/code:(?<currentValue>[^\\s]+)\""
+        "docker\\.io/collabora/code:(?<currentValue>[^\\s]+)"
       ],
-      "depNameTemplate": "collabora/code",
-      "datasourceTemplate": "docker"
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "collabora/code"
     }
   ]
 }
