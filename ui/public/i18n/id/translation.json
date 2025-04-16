@@ -1,0 +1,73 @@
+{
+    "status": {
+        "size": "Ukuran",
+        "created": "Dibuat",
+        "name": "Nama",
+        "no_images": "Tidak ada gambar",
+        "app_volumes": "Volume aplikasi | Volume aplikasi",
+        "services": "Pelayanan | Layanan",
+        "app_images": "Gambar aplikasi | Gambar aplikasi",
+        "collabora_admin_url": "Konsol admin",
+        "no_services": "Tidak ada layanan",
+        "app_instance": "Contoh aplikasi",
+        "mount": "Kait",
+        "title": "Status",
+        "installation_node": "Instalasi node",
+        "open_collabora_admin_page": "Konsol terbuka",
+        "node": "Node",
+        "no_volumes": "Tidak ada volume"
+    },
+    "settings": {
+        "placeholder_collabora_domain": "Jenis nama domain yang sepenuhnya berkualitas",
+        "configuring": "Mengkonfigurasi ...",
+        "disabled": "Dinonaktifkan",
+        "instance_configuration": "Konfigurasikan {instance}",
+        "http_to_https": "HTTP ke HTTPS",
+        "collabora_fqdn": "Collabora FQDN",
+        "lets_encrypt": "Mari Enkripsi",
+        "host_format": "Harus menjadi nama domain yang berkualitas penuh valid",
+        "email_format": "Alamat email yang tidak valid",
+        "placeholder_admin_password": "Jenis kata sandi",
+        "save": "Simpan",
+        "enabled": "Diaktifkan",
+        "link": "Admin console",
+        "domain_already_used_in_traefik": "Domain ini sudah digunakan di Traefik",
+        "host_pattern": "Harus menjadi nama domain yang berkualitas penuh valid",
+        "title": "Pengaturan",
+        "collabora_admin_password": "Kata sandi untuk konsol admin (pengguna adalah 'admin')",
+        "admin_password_string_gte": "Panjang kata sandi harus lebih unggul atau sama dengan karakter 8"
+    },
+    "error": {
+        "error": "Galat",
+        "403": "Operasi tidak sah",
+        "cannot_retrieve_installed_modules": "Tidak dapat mengambil modul yang diinstal",
+        "401": "Otentikasi tidak valid",
+        "cannot_retrieve_module_info": "Tidak dapat mengambil info modul",
+        "generic_error": "Ada yang tidak beres",
+        "404": "Sumber daya tidak ditemukan",
+        "network_timeout": "Waktu jaringan",
+        "network_error": "Kesalahan jaringan",
+        "validation_error": "Kesalahan validasi"
+    },
+    "common": {
+        "required": "Diperlukan",
+        "work_in_progress": "Sedang berlangsung",
+        "processing": "Proses..."
+    },
+    "about": {
+        "title": "Mengenai"
+    },
+    "action": {
+        "list-backup-repositories": "Daftar repositories cadangan",
+        "get-module-info": "Dapatkan info modul",
+        "list-installed-modules": "Daftar modul yang diinstal",
+        "list-backups": "Daftar cadangan",
+        "get-status": "Dapatkan status",
+        "configure-module": "Modul Konfigurasi",
+        "get-configuration": "Dapatkan konfigurasi",
+        "get-name": "Dapatkan nama"
+    },
+    "task": {
+        "cannot_create_task": "Tidak dapat membuat tugas {aksi}"
+    }
+}

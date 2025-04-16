@@ -1,0 +1,73 @@
+{
+    "error": {
+        "403": "Opdracht niet toegestaan",
+        "cannot_retrieve_installed_modules": "Kan geïnstalleerde modules niet ophalen",
+        "401": "Ongeldige authenticatie",
+        "cannot_retrieve_module_info": "Module-info kan niet worden opgehaald",
+        "generic_error": "Er is iets misgegaan",
+        "error": "fout",
+        "network_timeout": "Netwerktime-out",
+        "404": "Bron niet gevonden",
+        "network_error": "Netwerkfout",
+        "validation_error": "Validatiefout"
+    },
+    "common": {
+        "required": "Vereist",
+        "work_in_progress": "Werk in uitvoering",
+        "processing": "Verwerken..."
+    },
+    "status": {
+        "created": "Gemaakt",
+        "size": "Grootte",
+        "name": "Naam",
+        "no_images": "Geen images",
+        "app_volumes": "App volume | App volumen",
+        "services": "Dienst | Diensten",
+        "app_images": "App kopie | App kopieën",
+        "collabora_admin_url": "Beheerdersconsole",
+        "no_services": "Geen diensten",
+        "app_instance": "App-instantie",
+        "mount": "Mount",
+        "title": "Status",
+        "installation_node": "Installatie node",
+        "open_collabora_admin_page": "Open console",
+        "node": "Node",
+        "no_volumes": "Geen volumes"
+    },
+    "settings": {
+        "configuring": "Configureren...",
+        "disabled": "Uitgeschakeld",
+        "placeholder_collabora_domain": "Typ een volledig gekwalificeerde domeinnaam",
+        "instance_configuration": "Configureer {instance}",
+        "http_to_https": "HTTP naar HTTPS",
+        "collabora_fqdn": "collabora FQDN",
+        "lets_encrypt": "Let's Encrypt",
+        "host_format": "Moet een geldige, volledig gekwalificeerde domeinnaam zijn",
+        "email_format": "Ongeldig e-mailadres",
+        "placeholder_admin_password": "Typ een wachtwoord",
+        "save": "Opslaan",
+        "enabled": "Ingeschakeld",
+        "link": "Beheerdersconsole",
+        "domain_already_used_in_traefik": "Dit domein wordt al gebruikt in traefik",
+        "host_pattern": "Moet een geldige, volledig gekwalificeerde domeinnaam zijn",
+        "title": "Instellingen",
+        "collabora_admin_password": "wachtwoord voor de beheerdersconsole (gebruiker is 'admin')",
+        "admin_password_string_gte": "De lengte van het wachtwoord moet groter zijn dan of gelijk zijn aan 8 tekens"
+    },
+    "about": {
+        "title": "Over"
+    },
+    "action": {
+        "list-backup-repositories": "Back-up repositories weergeven",
+        "get-module-info": "Module-info ophalen",
+        "list-installed-modules": "Lijst met geïnstalleerde modules",
+        "list-backups": "Backups weergeven",
+        "get-status": "Status ophalen",
+        "configure-module": "Module configureren",
+        "get-configuration": "Configuratie ophalen",
+        "get-name": "Naam ophalen"
+    },
+    "task": {
+        "cannot_create_task": "Kan taak {actie} niet aanmaken"
+    }
+}
