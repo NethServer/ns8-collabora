@@ -34,6 +34,10 @@ Retrieve collabora backend URL
 Check if collabora works as expected
     Retry test    Backend URL is reachable
 
+Verify collabora frontend title
+    ${output} =    Execute Command    curl -s ${backend_url}
+    Should Contain    ${output}    OK
+
 Check if collabora is removed correctly
     ${rc} =    Execute Command    remove-module --no-preserve ${module_id}
     ...    return_rc=True  return_stdout=False
