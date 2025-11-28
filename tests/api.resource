@@ -1,4 +1,4 @@
-URN*** Settings ***
+*** Settings ***
 Library    SSHLibrary
 
 *** Keywords ***
