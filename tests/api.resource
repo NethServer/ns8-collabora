@@ -1,4 +1,4 @@
-*** Settings ***
+URN*** Settings ***
 Library    SSHLibrary
 
 *** Keywords ***
@@ -11,4 +11,4 @@ Run task
     ELSE
         ${response} =    Set Variable    ${stdout}
     END
-    [Return]    ${response}
+    RETURN    ${response}
