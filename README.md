@@ -54,9 +54,9 @@ To uninstall the instance:
 
     remove-module --no-preserve collabora1
 
-## Testing
+## Running tests locally
 
-See [ns8-github-actions v1 guide](https://github.com/NethServer/ns8-github-actions/blob/v1/README.md#running-tests-locally)
+This module uses the NS8 standard testing infrastructure. For instructions on how to run the test suite locally, refer to the [Running tests locally](https://github.com/NethServer/ns8-github-actions/blob/v1/README.md#running-tests-locally) section of the ns8-github-actions repository.
 
 ## Enable Collabora inside Nextcloud
 
