@@ -19,7 +19,7 @@ Check if collabora is installed correctly
     ...    return_rc=True
     Should Be Equal As Integers    ${rc}  0
     &{output} =    Evaluate    ${output}
-    Set Suite Variable    ${module_id}    ${output.module_id}
+    Set Global Variable    ${module_id}    ${output.module_id}
 
 Check if collabora can be configured
     ${rc} =    Execute Command    api-cli run module/${module_id}/configure-module --data '{"host": "collabora.nethserver.org","http2https": true,"lets_encrypt": false,"admin_password": "password"}'

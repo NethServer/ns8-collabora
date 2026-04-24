@@ -56,12 +56,7 @@ To uninstall the instance:
 
 ## Testing
 
-Test the module using the `test-module.sh` script:
-
-
-    ./test-module.sh <NODE_ADDR> ghcr.io/nethserver/collabora:latest
-
-The tests are made using [Robot Framework](https://robotframework.org/)
+See [ns8-github-actions v1 guide](https://github.com/NethServer/ns8-github-actions/blob/v1/README.md#running-tests-locally)
 
 ## Enable Collabora inside Nextcloud
 
