@@ -44,17 +44,21 @@
           :loading="loading.getConfiguration && loading.getStatus"
           class="min-height-card"
         >
-        <template slot="content">
-          <div class="card-rows">
-            <div class="card-row">
-              <NsButton kind="ghost" :icon="Launch20" @click="goToCollaboraAdmin">
-                {{ $t("status.open_collabora_admin_page") }}
-              </NsButton>
+          <template slot="content">
+            <div class="card-rows">
+              <div class="card-row">
+                <NsButton
+                  kind="ghost"
+                  :icon="Launch20"
+                  @click="goToCollaboraAdmin"
+                >
+                  {{ $t("status.open_collabora_admin_page") }}
+                </NsButton>
+              </div>
             </div>
-          </div>
-        </template>
+          </template>
         </NsInfoCard>
-      </template>      
+      </template>
       <cv-column :md="4" :max="4">
         <NsInfoCard
           light
@@ -295,7 +299,7 @@ export default {
         page: "status",
       },
       host: "",
-      admin_password:"",
+      admin_password: "",
       urlCheckInterval: null,
       isRedirectChecked: false,
       redirectTimeout: 0,
