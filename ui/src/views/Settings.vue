@@ -113,7 +113,7 @@ export default {
       },
       urlCheckInterval: null,
       host: "",
-      admin_password:"",
+      admin_password: "",
       isLetsEncryptEnabled: false,
       isHttpToHttpsEnabled: false,
       loading: {
@@ -124,7 +124,7 @@ export default {
         getConfiguration: "",
         configureModule: "",
         host: "",
-        admin_password:"",
+        admin_password: "",
         lets_encrypt: "",
         http2https: "",
       },
