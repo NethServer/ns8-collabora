@@ -1,5 +1,5 @@
 {
-  "name": "collabora",
+  "name": "Collabora Online",
   "description": {
     "en": "Collabora Online is a powerful LibreOffice-based online office",
     "it": "Collabora Online è una potente suite per ufficio online basata su LibreOffice"
@@ -12,7 +12,7 @@
     }
   ],
   "docs": {
-    "documentation_url": "https://docs.nethserver.org/projects/ns8/en/latest/collabora.html",
+    "documentation_url": "https://docs.nethserver.org/docs/administrator-manual/applications/collabora",
     "bug_url": "https://github.com/NethServer/dev",
     "code_url": "https://github.com/NethServer/ns8-collabora"
   },
